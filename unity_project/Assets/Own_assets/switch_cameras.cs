@@ -15,7 +15,7 @@ public class switch_cameras : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.C))
     {
         //Swap enabled state to opposite one provided that only is on at a time
         camera1.enabled = !camera1.enabled;

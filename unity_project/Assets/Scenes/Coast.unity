@@ -195,8 +195,9 @@ GameObject:
   - component: {fileID: 36158456}
   - component: {fileID: 36158458}
   - component: {fileID: 36158457}
+  - component: {fileID: 36158459}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Status
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -319,6 +320,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36158455}
   m_CullTransparentMesh: 1
+--- !u!114 &36158459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36158455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8ee6a8d2198484da850fd334b0bebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &40042086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,7 +1104,7 @@ GameObject:
   - component: {fileID: 474995445}
   - component: {fileID: 474995444}
   m_Layer: 5
-  m_Name: BlackDot (2)
+  m_Name: BlackDot2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2188,6 +2201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1022743703}
   - component: {fileID: 1022743702}
+  - component: {fileID: 1022743704}
   m_Layer: 0
   m_Name: Background_scripts
   m_TagString: Untagged
@@ -2224,6 +2238,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1022743704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022743701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8092a69ff0ef15499ae99641da06895, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1028664109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4627,7 +4653,7 @@ GameObject:
   - component: {fileID: 1945182555}
   - component: {fileID: 1945182554}
   m_Layer: 5
-  m_Name: BlackDot (1)
+  m_Name: BlackDot1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
