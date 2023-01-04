@@ -14,11 +14,11 @@ public class Moving_blackdots : MonoBehaviour
     // Update is called once per frame0
     void Update()
     {
-    if(transform.position.y > -80){
-        transform.position -= transform.up * 0.05f;
+    if(transform.position.y == -75){
+        transform.position = new Vector3(transform.position.x, -80, transform.position.z);
     }
     else {
-        transform.position += transform.up * 0.05f;
+        transform.position = new Vector3(transform.position.x, -75, transform.position.z);
     }
 }
 }
